@@ -55,14 +55,14 @@ Endpoint: POST /api/payments/create-subscription
 Request Body:
 
 {
-"email": "user@example.com",
-"plan": "Basic"  
+  "email": "user@example.com",
+  "plan": "Basic"  
 }
 
 Response:
 
 {
-"sessionId": "cs_test_12345"
+  "sessionId": "cs_test_12345"
 }
 
 2. Stripe Webhook
@@ -97,4 +97,5 @@ License
 This project is licensed under the MIT License.
 
 Author
+
 Subash Iyyappan
