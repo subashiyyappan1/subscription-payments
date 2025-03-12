@@ -17,6 +17,19 @@ Users can select a **subscription plan** (Basic, Premium, VIP) and make payments
 
 ## 🚀 Installation
 
+## 🔗 API Endpoints
+🎟️ 1. Create Subscription Checkout Session
+🔹 Endpoint: POST /api/payments/create-subscription
+
+📤 Request Body:
+
+```python
+{
+  "email": "user@example.com",
+  "plan": "Basic"  
+}
+```
+
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/your-repo/video-subscription-platform.git
@@ -32,16 +45,28 @@ cd video-subscription-platform
 │   ├── paymentRoutes.js
 │-- config/
 │   ├── db.js
+```
 
 ## 🔗 API Endpoints
-🎟️ 1. Create Subscription Checkout Session
-🔹 Endpoint: POST /api/payments/create-subscription
+ 🎟️ 1. Create Subscription Checkout Session
+ Endpoint: POST /api/payments/create-subscription
 
-📤 Request Body:
-
-// {
+🔹 Request Body:
+```sh
+{
   "email": "user@example.com",
   "plan": "Basic"  
 }
+```
+🔹 Request Body:
+```
+{
+  "sessionId": "cs_test_12345"
+}
+```
 
-This format ensures **proper heading structure, bullet points, code blocks, and tag formatting** for a clean and professional README file. 🚀 Let me know if you need any changes! 😃
+# 📜 License
+This project is licensed under the MIT License.
+
+# ✨ Author
+👨‍💻 Subash Iyyappan
