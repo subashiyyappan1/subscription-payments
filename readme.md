@@ -33,5 +33,15 @@ cd video-subscription-platform
 │-- config/
 │   ├── db.js
 
+## 🔗 API Endpoints
+🎟️ 1. Create Subscription Checkout Session
+🔹 Endpoint: POST /api/payments/create-subscription
+
+📤 Request Body:
+
+// {
+  "email": "user@example.com",
+  "plan": "Basic"  
+}
 
 This format ensures **proper heading structure, bullet points, code blocks, and tag formatting** for a clean and professional README file. 🚀 Let me know if you need any changes! 😃
